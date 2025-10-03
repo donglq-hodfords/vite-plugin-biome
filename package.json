@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-biome2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Biome plugin for Vite",
   "main": "dist/index.mjs",
   "module": "dist/index.mjs",
@@ -21,7 +21,7 @@
     "dist/"
   ],
   "peerDependencies": {
-    "@biomejs/biome": "^2.2.5"
+    "@biomejs/biome": ">=2"
   },
   "devDependencies": {
     "@types/node": "24.6.2",

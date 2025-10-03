@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       '@biomejs/biome':
-        specifier: ^2.2.5
+        specifier: '>=2'
         version: 2.2.5
     devDependencies:
       '@types/node':
