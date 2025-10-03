@@ -9,12 +9,12 @@ fs.readdir(directory, (err, files) => {
     return;
   }
 
-  files.forEach(file => {
+  files.forEach((file) => {
     if (file.endsWith('.js')) {
       const filePath = path.join(directory, file);
       const newFilePath = filePath.replace('.js', '.mjs');
 
-      fs.rename(filePath, newFilePath, err => {
+      fs.rename(filePath, newFilePath, (err) => {
         if (err) {
           console.error(`Error renaming file: ${file}`, err);
         } else {
