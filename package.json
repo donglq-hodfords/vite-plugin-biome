@@ -1,5 +1,5 @@
 {
-  "name": "@plugin/vite-plugin-biome",
+  "name": "vite-plugin-biome2",
   "version": "1.0.0",
   "description": "Biome plugin for Vite",
   "main": "dist/index.mjs",
